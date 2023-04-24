@@ -23,24 +23,6 @@ const players: { icon: string; name: string; scheme: string }[] = [
     name: "Infuse",
     scheme: "infuse://x-callback-url/play?url=$durl",
   },
-  { icon: "nplayer", name: "nPlayer", scheme: "nplayer-$durl" },
-  {
-    icon: "infuse",
-    name: "Infuse",
-    scheme: "infuse://x-callback-url/play?url=$durl",
-  },
-  {
-    icon: "mxplayer",
-    name: "MX Player",
-    scheme:
-      "intent:$durl#Intent;package=com.mxtech.videoplayer.ad;S.title=$name;end",
-  },
-  {
-    icon: "mxplayer-pro",
-    name: "MX Player Pro",
-    scheme:
-      "intent:$durl#Intent;package=com.mxtech.videoplayer.pro;S.title=$name;end",
-  },
 ]
 
 const Preview = () => {
